@@ -16,7 +16,7 @@ Currently available at: https://chromewebstore.google.com/detail/business-card-c
 1. Clone the repository:
 
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/alexandresanchograca/linkedin-card.git
    cd linkedin-card-extension
    ```
 
