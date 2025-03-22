@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Business Card Creator",
+  "description": "Generates a printable bussiness card based on your linkedin profile",
+  "version": "0.0.1",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["/content.js"]
+    }
+  ],
+  "permissions": ["scripting", "activeTab"]
+}
